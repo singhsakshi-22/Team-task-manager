@@ -1,0 +1,332 @@
+{
+  "users": [
+    {
+      "_id": "9xd1p7qhhnh2wvwjpq9s5l",
+      "createdAt": "2026-05-28T18:10:41.906Z",
+      "updatedAt": "2026-05-28T18:10:41.910Z",
+      "name": "Aether Admin",
+      "email": "admin@aether.com",
+      "password": "$2a$10$ZPLjUw7TGC7YMrPF3Sr./uXH/bhzsc10L9GYgHn/9m4LFIeNkq.Uq",
+      "role": "Admin",
+      "avatarColor": "from-cyan-500 to-blue-500"
+    },
+    {
+      "_id": "1lngqod0mpk6avd9ic0xos",
+      "createdAt": "2026-05-28T18:10:41.913Z",
+      "updatedAt": "2026-05-28T18:10:41.913Z",
+      "name": "Sakshi Singh",
+      "email": "sakshi@aether.com",
+      "password": "$2a$10$xrFgrNp5icUo.xsRowtwse2raNMIxHidOP1AKV79G0RSd63/LWkBm",
+      "role": "Member",
+      "avatarColor": "from-violet-500 to-purple-500"
+    },
+    {
+      "_id": "07mfkmbqmvw3x6lcbptrjz",
+      "createdAt": "2026-05-28T18:10:41.914Z",
+      "updatedAt": "2026-05-28T18:10:41.914Z",
+      "name": "Liam Chen",
+      "email": "liam@aether.com",
+      "password": "$2a$10$ZPLjUw7TGC7YMrPF3Sr./uXH/bhzsc10L9GYgHn/9m4LFIeNkq.Uq",
+      "role": "Member",
+      "avatarColor": "from-emerald-500 to-teal-500"
+    },
+    {
+      "_id": "lqnw4od4xbdsdotz6jw8b",
+      "createdAt": "2026-05-28T18:10:41.914Z",
+      "updatedAt": "2026-05-28T18:10:41.914Z",
+      "name": "Sophia Rodriguez",
+      "email": "sophia@aether.com",
+      "password": "$2a$10$ZPLjUw7TGC7YMrPF3Sr./uXH/bhzsc10L9GYgHn/9m4LFIeNkq.Uq",
+      "role": "Member",
+      "avatarColor": "from-rose-500 to-red-500"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "lf63759frnfrd358tn0ceg",
+      "createdAt": "2026-05-28T18:10:41.916Z",
+      "updatedAt": "2026-05-28T18:10:41.916Z",
+      "name": "Chronos AI Engine",
+      "description": "Scheduling machine learning training pipelines and auto-deploying models into edge clusters.",
+      "owner": "9xd1p7qhhnh2wvwjpq9s5l",
+      "members": [
+        "1lngqod0mpk6avd9ic0xos",
+        "07mfkmbqmvw3x6lcbptrjz",
+        "lqnw4od4xbdsdotz6jw8b"
+      ]
+    },
+    {
+      "_id": "6gdz6jctlcnenvsvijjz",
+      "createdAt": "2026-05-28T18:10:41.916Z",
+      "updatedAt": "2026-05-28T18:10:41.916Z",
+      "name": "Cybersecurity Vault",
+      "description": "Building an enterprise decentralized ledger to manage Zero Trust API authentication credentials.",
+      "owner": "9xd1p7qhhnh2wvwjpq9s5l",
+      "members": [
+        "1lngqod0mpk6avd9ic0xos",
+        "07mfkmbqmvw3x6lcbptrjz"
+      ]
+    },
+    {
+      "_id": "sy4nkc4d1ervxok8a3psak",
+      "createdAt": "2026-05-28T18:10:41.917Z",
+      "updatedAt": "2026-05-28T18:10:41.917Z",
+      "name": "Aero UI Framework",
+      "description": "Frictionless, responsive, and component-driven glassmorphism dashboard system designed with Tailwind.",
+      "owner": "9xd1p7qhhnh2wvwjpq9s5l",
+      "members": [
+        "1lngqod0mpk6avd9ic0xos",
+        "lqnw4od4xbdsdotz6jw8b"
+      ]
+    },
+    {
+      "_id": "c2ndfh6idven4gwmkm4jer",
+      "createdAt": "2026-05-28T18:12:17.538Z",
+      "updatedAt": "2026-05-28T18:12:17.538Z",
+      "name": "inerview preparation tracker",
+      "description": "track the interviwe course, networking ,coding",
+      "owner": "1lngqod0mpk6avd9ic0xos",
+      "members": []
+    }
+  ],
+  "tasks": [
+    {
+      "_id": "g5rpglqc65p48v6k78dauu",
+      "createdAt": "2026-05-28T18:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.918Z",
+      "title": "Design GPU Scheduling Algorithm",
+      "description": "Develop dynamic load-balancer to queue Deep Learning models matching host memory availability.",
+      "project": "lf63759frnfrd358tn0ceg",
+      "assignee": "1lngqod0mpk6avd9ic0xos",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-05-29T18:10:41.918Z"
+    },
+    {
+      "_id": "wocyf75zon9pi93360avv",
+      "createdAt": "2026-05-28T18:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.918Z",
+      "title": "Implement Prometheus Metrics Agent",
+      "description": "Configure real-time scraping interval on CUDA drivers to expose temperature and usage stats.",
+      "project": "lf63759frnfrd358tn0ceg",
+      "assignee": "07mfkmbqmvw3x6lcbptrjz",
+      "status": "Pending",
+      "priority": "Medium",
+      "dueDate": "2026-05-31T18:10:41.918Z"
+    },
+    {
+      "_id": "fczyddg7mdv5bqigq9f0sl",
+      "createdAt": "2026-05-28T18:10:41.919Z",
+      "updatedAt": "2026-05-28T18:10:41.919Z",
+      "title": "Audit AI Model Permissions Layer",
+      "description": "Validate JWT scope assertions before serving pipeline endpoint responses.",
+      "project": "lf63759frnfrd358tn0ceg",
+      "assignee": "9xd1p7qhhnh2wvwjpq9s5l",
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2026-05-26T18:10:41.918Z"
+    },
+    {
+      "_id": "tutufhydb3f7xan24lfl",
+      "createdAt": "2026-05-28T18:10:41.920Z",
+      "updatedAt": "2026-05-28T18:10:41.920Z",
+      "title": "Draft Ledger Security Architecture",
+      "description": "Create multi-signature block structure specification document for team authorization review.",
+      "project": "6gdz6jctlcnenvsvijjz",
+      "assignee": "1lngqod0mpk6avd9ic0xos",
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2026-05-23T18:10:41.918Z"
+    },
+    {
+      "_id": "qexmt6crzsphmdl9h4c4s",
+      "createdAt": "2026-05-28T18:10:41.920Z",
+      "updatedAt": "2026-05-28T18:10:41.920Z",
+      "title": "Perform Cryptographic Security Audit",
+      "description": "Identify potential side-channel threats inside bcrypt and RSA decryption procedures.",
+      "project": "6gdz6jctlcnenvsvijjz",
+      "assignee": "07mfkmbqmvw3x6lcbptrjz",
+      "status": "Pending",
+      "priority": "High",
+      "dueDate": "2026-05-26T18:10:41.918Z"
+    },
+    {
+      "_id": "bxi9ak6dj0pj6z6i4wynog",
+      "createdAt": "2026-05-28T18:10:41.921Z",
+      "updatedAt": "2026-05-28T18:10:41.921Z",
+      "title": "Integrate OAuth2 Endpoint Registry",
+      "description": "Establish registration routing table mapping secure client IDs to token signing chains.",
+      "project": "6gdz6jctlcnenvsvijjz",
+      "assignee": "1lngqod0mpk6avd9ic0xos",
+      "status": "In Progress",
+      "priority": "Medium",
+      "dueDate": "2026-06-04T18:10:41.918Z"
+    },
+    {
+      "_id": "4kfvys1av3owg4axnsds6",
+      "createdAt": "2026-05-28T18:10:41.921Z",
+      "updatedAt": "2026-05-28T18:10:41.921Z",
+      "title": "Assemble Glassmorphism Styling Utility",
+      "description": "Implement modern translucent CSS filters, glowing border shades, and dark/light support config.",
+      "project": "sy4nkc4d1ervxok8a3psak",
+      "assignee": "lqnw4od4xbdsdotz6jw8b",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-05-29T18:10:41.918Z"
+    },
+    {
+      "_id": "ke5u0i8rbrfv9h62oaiyd9",
+      "createdAt": "2026-05-28T18:10:41.922Z",
+      "updatedAt": "2026-05-28T18:10:41.922Z",
+      "title": "Build Collaborative Chat Sidebar UI",
+      "description": "Craft dynamic scrolling feed of project updates with soft gradient indicators for user states.",
+      "project": "sy4nkc4d1ervxok8a3psak",
+      "assignee": "1lngqod0mpk6avd9ic0xos",
+      "status": "Completed",
+      "priority": "Low",
+      "dueDate": "2026-05-28T18:10:41.918Z"
+    },
+    {
+      "_id": "264c5md02mxjqvliqmvoyml",
+      "createdAt": "2026-05-28T18:14:06.904Z",
+      "updatedAt": "2026-05-28T18:14:06.904Z",
+      "title": "interview tracker",
+      "description": "track coding , networking ",
+      "project": "lf63759frnfrd358tn0ceg",
+      "assignee": "1lngqod0mpk6avd9ic0xos",
+      "status": "In Progress",
+      "priority": "Low",
+      "dueDate": "2026-05-12"
+    }
+  ],
+  "activitylogs": [
+    {
+      "_id": "btx0lh7hgs80ivmpb6r0x29",
+      "createdAt": "2026-05-28T08:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.923Z",
+      "user": "9xd1p7qhhnh2wvwjpq9s5l",
+      "userName": "Aether Admin",
+      "action": "created project",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine"
+    },
+    {
+      "_id": "u3b27awdiwa3zvb98g40st",
+      "createdAt": "2026-05-28T09:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.923Z",
+      "user": "9xd1p7qhhnh2wvwjpq9s5l",
+      "userName": "Aether Admin",
+      "action": "created project",
+      "project": "6gdz6jctlcnenvsvijjz",
+      "projectName": "Cybersecurity Vault"
+    },
+    {
+      "_id": "t746914c1my6nmie356q",
+      "createdAt": "2026-05-28T10:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.924Z",
+      "user": "9xd1p7qhhnh2wvwjpq9s5l",
+      "userName": "Aether Admin",
+      "action": "created project",
+      "project": "sy4nkc4d1ervxok8a3psak",
+      "projectName": "Aero UI Framework"
+    },
+    {
+      "_id": "2fy2sfpqpe3eyro1fdvg4f",
+      "createdAt": "2026-05-28T13:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.928Z",
+      "user": "9xd1p7qhhnh2wvwjpq9s5l",
+      "userName": "Aether Admin",
+      "action": "created task",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine",
+      "taskTitle": "Design GPU Scheduling Algorithm"
+    },
+    {
+      "_id": "g39yr3hnlce5mqr6y6eilp",
+      "createdAt": "2026-05-28T14:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.929Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Sharma",
+      "action": "updated task status to 'In Progress' on",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine",
+      "taskTitle": "Design GPU Scheduling Algorithm"
+    },
+    {
+      "_id": "yjooguaa2p8n26iebcv99m",
+      "createdAt": "2026-05-28T16:10:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.931Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Sharma",
+      "action": "updated task status to 'Completed' on",
+      "project": "6gdz6jctlcnenvsvijjz",
+      "projectName": "Cybersecurity Vault",
+      "taskTitle": "Draft Ledger Security Architecture"
+    },
+    {
+      "_id": "jrf5ob6j10rqnafxokfrgs",
+      "createdAt": "2026-05-28T17:40:41.918Z",
+      "updatedAt": "2026-05-28T18:10:41.932Z",
+      "user": "lqnw4od4xbdsdotz6jw8b",
+      "userName": "Sophia Rodriguez",
+      "action": "updated task status to 'In Progress' on",
+      "project": "sy4nkc4d1ervxok8a3psak",
+      "projectName": "Aero UI Framework",
+      "taskTitle": "Assemble Glassmorphism Styling Utility"
+    },
+    {
+      "_id": "pb10q7afoxfqnwlphthec",
+      "createdAt": "2026-05-28T18:12:17.540Z",
+      "updatedAt": "2026-05-28T18:12:17.540Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Sharma",
+      "action": "created project",
+      "project": "c2ndfh6idven4gwmkm4jer",
+      "projectName": "inerview preparation tracker"
+    },
+    {
+      "_id": "1yqpr53t6mzm38fgbyrsi8",
+      "createdAt": "2026-05-28T18:14:06.911Z",
+      "updatedAt": "2026-05-28T18:14:06.911Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Sharma",
+      "action": "created task",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine",
+      "taskTitle": "interview tracker"
+    },
+    {
+      "_id": "y7gkc67a4dyujtqd7gwv",
+      "createdAt": "2026-05-28T18:14:56.565Z",
+      "updatedAt": "2026-05-28T18:14:56.565Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Singh",
+      "action": "updated task status to 'Pending' on",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine",
+      "taskTitle": "interview tracker"
+    },
+    {
+      "_id": "hsrlx7oqbwtt7f08g6zqr",
+      "createdAt": "2026-05-28T18:15:00.196Z",
+      "updatedAt": "2026-05-28T18:15:00.196Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Singh",
+      "action": "updated task status to 'In Progress' on",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine",
+      "taskTitle": "interview tracker"
+    },
+    {
+      "_id": "p0onkua2c8jjhh3458vok",
+      "createdAt": "2026-05-28T18:15:32.026Z",
+      "updatedAt": "2026-05-28T18:15:32.026Z",
+      "user": "1lngqod0mpk6avd9ic0xos",
+      "userName": "Sakshi Singh",
+      "action": "updated task status to 'Completed' on",
+      "project": "lf63759frnfrd358tn0ceg",
+      "projectName": "Chronos AI Engine",
+      "taskTitle": "Implement Prometheus Metrics Agent"
+    }
+  ]
+}
