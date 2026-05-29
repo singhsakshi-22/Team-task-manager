@@ -1,5 +1,5 @@
 // Dynamic API client using standard fetch
-const BASE_URL = ''; // Proxied in Vite to http://localhost:5000 in dev
+const BASE_URL = "https://team-task-manager-production-1eae.up.railway.app"; // Proxied in Vite to http://localhost:5000 in dev
 
 export const api = {
   get: (url) => request('GET', url),
